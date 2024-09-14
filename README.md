@@ -8,7 +8,7 @@ Build a generative AI application for a use case supporting productivity with IB
 
 ---
 
-# Use case: Customer Satisfaction Analysis using Watsonx AI
+## Use case: Customer Satisfaction Analysis using Watsonx AI
 
 This project analyzes customer satisfaction based on feedback provided by customers who are using electronic devices from a specific manufacturer. The analysis utilizes IBM Watsonx AI and the Granite-13b-Instruct-V2 Foundation Model to perform sentiment analysis on customer feedback data. This repository contains the code, dataset, and necessary configurations to run the analysis.
 
