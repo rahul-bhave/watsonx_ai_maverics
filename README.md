@@ -1,4 +1,4 @@
-# Why this solution is built:
+## Purpose of solution:
 This solution is built for the [IBM TechXchange Pre-Conference watsonx Hackathon](https://pretxchack.watsonx-challenge.ibm.com/), and we have selected the following path listed for the hackathon event.
 
 ---
@@ -50,6 +50,8 @@ pip install "scikit-learn==1.3.2"
 pip install -U ibm-watsonx-ai
 ```
 
+---
+
 ## Project Setup
 
 1. **IBM Watsonx Credentials**:
@@ -96,6 +98,8 @@ pip install -U ibm-watsonx-ai
    satisfaction = list(test.Satisfaction)
    ```
 
+---
+
 ## Model Overview
 
 We use IBM's **Granite-13b-Instruct-V2** model for text generation and sentiment analysis. This model is part of the IBM Foundation Models and is fine-tuned for multiple tasks such as question answering, summarization, and classification.
@@ -124,6 +128,8 @@ model = ModelInference(
 )
 ```
 
+---
+
 ## Data
 
 The dataset contains customer feedback comments and their satisfaction labels (`1` for satisfied, `0` for unsatisfied).
@@ -136,6 +142,8 @@ Example data:
 | The screen resolution on this laptop is amazing.
 |  but it tends to heat up quickly.                | 0            |
 | Fantastic device,really happy with this purchase!| 1            |
+
+---
 
 ## Model Inference and Evaluation
 
@@ -162,6 +170,8 @@ y_true = [label_map[sat] for sat in satisfaction][:sample_size]
 accuracy = accuracy_score(y_true, results)
 print('Accuracy:', accuracy)
 ```
+
+---
 
 ## Results
 
