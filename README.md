@@ -1,6 +1,8 @@
 # Why this solution is built:
 This solution is built for the [IBM TechXchange Pre-Conference watsonx Hackathon](https://pretxchack.watsonx-challenge.ibm.com/), and we have selected the following path listed for the hackathon event.
 
+---
+
 ## Path
 Build a generative AI application for a use case supporting productivity with IBM watsonx.ai, featuring IBM Granite
 
@@ -9,6 +11,8 @@ Build a generative AI application for a use case supporting productivity with IB
 # Use case: Customer Satisfaction Analysis using Watsonx AI
 
 This project analyzes customer satisfaction based on feedback provided by customers who are using electronic devices from a specific manufacturer. The analysis utilizes IBM Watsonx AI and the Granite-13b-Instruct-V2 Foundation Model to perform sentiment analysis on customer feedback data. This repository contains the code, dataset, and necessary configurations to run the analysis.
+
+---
 
 ## Table of Contents
 - [Introduction](#introduction)
@@ -21,9 +25,13 @@ This project analyzes customer satisfaction based on feedback provided by custom
 - [Productivity Improvement](#productivity-improvement)
 - [Conclusion](#conclusion)
 
+---
+
 ## Introduction
 
 Customer satisfaction plays a vital role in understanding the success of a product and improving its overall experience. In this project, we aim to analyze customer reviews and classify whether the customers were satisfied based on their feedback. We utilize IBM's Granite-13b-Instruct-V2 model on Watsonx.ai to perform this task.
+
+---
 
 ## Requirements
 
@@ -162,11 +170,15 @@ In this test, the model achieved an accuracy of `90%` when analyzing 10 customer
 - **True Labels**: `['no', 'no', 'no', 'yes', 'yes', 'no', 'yes', 'yes', 'yes', 'yes']`
 - **Predicted Labels**: `['no', 'no', 'no', 'yes', 'yes', 'yes', 'yes', 'yes', 'yes', 'yes']`
 
+---
+
 ## Productivity Improvement
 
 Implementing Watsonx AI models like **Granite-13b-Instruct-V2** significantly enhances productivity when analyzing customer feedback. Traditionally, sentiment analysis requires manual review or complex rule-based systems. With this AI-driven approach, businesses can now automate the sentiment classification process, making it both scalable and accurate. 
 
 By reducing the manual effort in analyzing customer satisfaction data, companies can refocus resources on improving customer service and product development. Additionally, with the automation of sentiment analysis, businesses can rapidly adapt to customer feedback trends, ensuring timely and data-driven decisions that enhance overall customer experience. This results in a more agile and responsive business process.
+
+---
 
 ## Conclusion
 
