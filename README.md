@@ -38,7 +38,7 @@ Customer satisfaction plays a vital role in understanding the success of a produ
 
 ## Solution Architecture Diagram
 
-![Solution Architecture](https://path-to-image.com/solution_architecture.png)
+![Solution Architecture](https://github.com/rahul-bhave/watsonx_ai_maverics/blob/main/Solution%20architecture%20diagram.PNG))
 
 
 ---
