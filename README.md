@@ -16,7 +16,7 @@ This project analyzes customer satisfaction based on feedback provided by custom
 
 ## Table of Contents
 - [Introduction](#introduction)
-- [Solution Architecture Diagram](#Solution Architecture Diagram)
+- [Solution Architecture Diagram](#Solution-Architecture-Diagram)
 - [Requirements](#requirements)
 - [Project Setup](#project-setup)
 - [Model Overview](#model-overview)
