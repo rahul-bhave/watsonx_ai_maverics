@@ -16,6 +16,7 @@ This project analyzes customer satisfaction based on feedback provided by custom
 
 ## Table of Contents
 - [Introduction](#introduction)
+- [Solution Architecture Diagram](#Solution Architecture Diagram)
 - [Requirements](#requirements)
 - [Project Setup](#project-setup)
 - [Model Overview](#model-overview)
@@ -30,6 +31,12 @@ This project analyzes customer satisfaction based on feedback provided by custom
 ## Introduction
 
 Customer satisfaction plays a vital role in understanding the success of a product and improving its overall experience. In this project, we aim to analyze customer reviews and classify whether the customers were satisfied based on their feedback. We utilize IBM's Granite-13b-Instruct-V2 model on Watsonx.ai to perform this task.
+
+---
+
+## Solution Architecture Diagram
+
+![Solution Architecture](Solution architecture diagram.png)
 
 ---
 
