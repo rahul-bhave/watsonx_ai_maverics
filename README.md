@@ -186,6 +186,7 @@ In this test, the model achieved an accuracy of `90%` when analyzing 10 customer
 
 - **True Labels**: `['no', 'no', 'no', 'yes', 'yes', 'no', 'yes', 'yes', 'yes', 'yes']`
 - **Predicted Labels**: `['no', 'no', 'no', 'yes', 'yes', 'yes', 'yes', 'yes', 'yes', 'yes']`
+- **Solution Demo**: The solution demo is available [here](https://youtu.be/kFKhXjgHZ44?si=PG2s2BUs-AD7Nkez)
 
 ---
 
